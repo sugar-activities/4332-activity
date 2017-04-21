@@ -1,0 +1,7 @@
+[Activity]
+name = Help Arabic
+activity_version = 5
+service_name = org.laptop.HelparActivity
+icon = activity-help
+class = helpactivity.HelpActivity
+license = GPLv3

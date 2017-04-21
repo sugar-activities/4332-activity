@@ -1,0 +1,138 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="RTL">
+<!-- Mirrored from objavi.flossmanuals.net/books/XOar-ar-2010.09.29-22.58.37/HowToFlash.html by HTTrack Website Copier/3.x [XR&CO'2006], Thu, 30 Sep 2010 09:23:00 GMT -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>HOW TO REFLASH</title><link rel="icon" href="../../static/fl2.ico" type="image/x-icon"><link rel="stylesheet" href="../../static/templating_template_flossmanuals.css" type="text/css"><script type="text/javascript" src="../../static/jquery.js"></script><script type="text/javascript" src="../../static/templating_template_flossmanuals.js"></script></head><body>
+<div id="home">
+  <a href="http://objavi.flossmanuals.net/"><img src="../../static/top_read_back.gif" border="0" alt=""></a>
+</div>
+<div id="index">
+  <a href="index.html" id="index-book-title"><div Class="book-title-goes-here">XO</div></a>
+  <ul Class="menu-goes-here"><li Class="booki-section">المقدمة</li><li><a href="index.html">المقدمة</a></li>
+<li><a href="AboutOLPC.html"> حول منظمة حاسوب محمول لكل طفل</a></li>
+<li><a href="AboutComputers.html">حول الحاسوب</a></li>
+<li><a href="HowToVolunteer.html">مساعدة المشروع</a></li>
+<li Class="booki-section">التعرف على
+ الجهاز</li><li><a href="GettingStarted.html">التعرف على الجهاز</a></li>
+<li><a href="OpeningTheXO.html">فتح الجهاز</a></li>
+<li><a href="Ports.html">المنافذ</a></li>
+<li><a href="ChargingBattery.html">شحن البطارية</a></li>
+<li><a href="Starting.html">تشغبل جهاز اكسو</a></li>
+<li><a href="Keyboard.html">لوحة المفاتيح</a></li>
+<li><a href="Screen.html">الشاشة</a></li>
+<li><a href="Externalstorage.html">التخزين</a></li>
+<li Class="booki-section">البطارية</li><li><a href="ReplacingBattery.html">تغيير</a></li>
+<li><a href="AdvancedPower.html">توصيل الطاقة</a></li>
+<li Class="booki-section">الشبكة</li><li><a href="AboutNetworksAndTheInternet.html">مقدمة</a></li>
+<li><a href="GiveMeTheInternet.html">الإتصال بالأنترنت</a></li>
+<li><a href="Troubleshooting.html">المشاكل الممكنة</a></li>
+<li><a href="ExternalHardware.html">عتاد الشبكة</a></li>
+<li><a href="RouterTable.html">جهاز لاسلكي</a></li>
+<li Class="booki-section">المساعدة</li><li><a href="Safety.html">الأمان</a></li>
+<li><a href="CaringForXO.html">العناية بالجهاز</a></li>
+<li><a href="HowToFlash.html">كيفية اعادة تثبيت النظام</a></li>
+<li><a href="Maintenance.html">الصيانة</a></li>
+<li><a href="Repairing.html">الإصلاح</a></li>
+<li><a href="GettingSupport.html">الحصول على مساعدة</a></li>
+<li Class="booki-section">الملحق</li><li><a href="KeyboardShortcuts.html">إختصارات لوحة المفاتيح</a></li>
+<li><a href="HardwareSpecifications.html">التفاصيل التقنية</a></li>
+<li><a href="Credits.html">المؤلفون</a></li>
+</ul></div>
+<!--
+<div id="pdf">
+  <a href="something.pdf"><img class="non" src="/static/makepdf.gif" border="0" alt="" /></a>
+  <a href="something"><img class="non" src="/static/viewprint.gif" border="0" alt="" /></a>
+</div>
+-->
+<div id="main">
+  <div class="navbar">
+    <div class="arrow top left"><a href="#"><img src="../../static/lefttext.png" height="20" alt=""></a></div>
+    <div class="arrow top right"><a href="#"><img src="../../static/righttext.png" height="20" alt=""></a></div>
+    <div id="edit-links">
+      <a href="http://booki.cc/">Edit this page</a>
+      ::
+      <a href="http://booki.cc/">Discussion</a>
+    </div>
+  </div>
+
+  <div class="ds-contentcontainer">
+    <div id="main-content">
+<h1>استرجاع الاعدادات الأصلية
+</h1>
+<p><strong>تحذير : كل شيء على XO الخاص بك سيحذف إذا استخدمت جهاز تخزين USB والأسلوب التالي لتنصيب ملفات XO لذاكرة فلاش الخاص بك.</strong>
+</p>
+<p>مع الربط بشبكة الإنترنت، يمكنك أن تعيد تحميل ملفات XO لإعدادات المصنع الافتراضية. ويسمى هذا الإجراء "تنظيف تثبيت" وصفها بمزيد من التفصيل في <a title="http://wiki.laptop.org/go/Clean-install_procedure" href="http://wiki.laptop.org/go/Clean-install_procedure">http://wiki.laptop.org/go/Clean-install_procedure</a>. (يمكن تسليم تحديثات البرامج عن طريق تنظيف تثبيت أو بوسائل أخرى.)
+  <br></p>
+<p>تنظيف تثبيت يعمل من خلال إعادة تهيئة XO الخاص بك مع صورة البرمجيات المخزنة على جهاز تخزين USB.
+</p>
+<h2>قبل أن تبدأ
+</h2>
+<p>سوف تحتاج إلى :
+  <br></p>
+<ul><li>جهاز التخزين USB لديها ما لا يقل عن 1 غيغابايت من المساحة الفارغة. </li>
+  <li>جهاز كمبيوتر مع إمكانية الوصول إلى الإنترنت بسرعة (يجب أن تسمح لك لتحميل المطلوبة 300 الى 400MB في غضون ساعة واحدة)</li>
+</ul><p>ثم ستقوم بتحميل ملفين الى ذاكرة USB. بعد ذلك ، فإن عملية التثبيت تأخذ حوالي عشر دقائق.
+</p>
+<h2>إعداد الجهاز الخاص التخزين USB
+</h2>
+<ol><li> حمل ملف نظام التشغيل و "fs.zip" إلى الكمبيوتر المحلي. يتم ضغط هذه الملفات ، حتى لا تفتح لهم -- بدلا من ذلك ، في المتصفح الخاص بك ، قم بزيارة صفحتين ويجب اتباع التعليمات :
+  <br><ul><li><a href="http://download.laptop.org/xo-1/custom/g1g1/releases/8.2-latest/os-image.html" class="external free" title="OS Image" rel="nofollow">http://download.laptop.org/xo-1/custom/g1g1/releases/8.2-latest/os-image.html</a></li>
+    <li><a title="Signatures File" href="http://download.laptop.org/xo-1/custom/g1g1/releases/8.2-latest/fs-zip.html">http://download.laptop.org/xo-1/custom/g1g1/releases/8.2-latest/fs-zip.html</a></li>
+  </ul></li>
+  <li> قم بنسخ الملفات (نظام الملفات FAT أو FAT32)  الى جهاز التخزين USB.
+  <ul><li> نبغي أن يحتوي جهاز التخزين بالضبط على ملفين اسمهما enxxx-n.img و fs.zip</li>
+    <li>ينبغي أن تكون هذه الملفات تشغل ما لا يقل عن 300 ميغابايت من المساحة.</li>
+  </ul></li>
+  <li> فك جهاز التخزين  USB وفصلها عن جهاز الكمبيوتر الخاص بك عندما يصبح الوضع آمنا للقيام بذلك..
+  <br></li>
+</ol><p>وقد أعدت أنت نفسك الآن لاستعادة إعدادات المصنع الافتراضية في هذا الوقت.
+</p>
+<h2><span id="result_box" class="long_text"><span>إعادة تثبيت نظام التشغيل الخاص بك </span></span> 
+</h2>
+<ol><li>قم بإيقاف تشغيل الجهاز.</li>
+  <li>قم بتوصيل الذاكرة USB الى جهازك.</li>
+  <li><img alt="Power_button.jpg" src="static/OLPC_simple-HowToFlash-Power_button-en.jpg" height="114" width="168" align="right"><span id="result_box" class="long_text"><span>وبعد ذلك ، اضغط على كافة المفاتيح الأربعة فوق زر الطاقة، ومن ثم دفع زر الطاقة لتشغيل XO. </span><span>سترى رسالة تخبرك الى "الافراج عن لعبة مفتاح للمتابعة". </span><span>لا تزال حتى تشاهد هذه الرسالة.</span></span></li>
+  <li>عملية تحميل ملفات تعمل تلقائيا ستظهر على الشاشة شبكة من المربعات، ثم سيتم عرض "إعادة التشغيل في 10 ثواني..." وسوف يتم اعادة تشغيل من جديد.. </li>
+  <li>أدخل اسمك الخاص بك، ثم انقر فوق التالي.
+  <br></li>
+  <li>انقر فوق رمز XO لتغيير الألوان ومن ثم انقر فوق التالي.
+  <br></li>
+  <li>اختياريا، قم بالاتصال بإنترنت، ثم استخدم لوحة التحكم لتحميل آخر اصدار للأنشطة. </li>
+</ol><h2>
+</h2>
+<h3>إذا حدث خطأ ما
+</h3>
+<p>إذا كنت ترى رسالة "Bad hash at eblock #0"، فإن ذلك يعني أن الصورة التي نسخها إلى جهاز التخزين USB معطوب. يجب عليك تكرار الخطوات إعداد ، وربما مع جهاز تخزين USB ، ومن ثم إعادة المحاولة  التثبيت.
+</p>
+<p>
+</p>
+<h2>تغيير النظام في التشغيل XO
+  <br></h2>
+<p>بعد أن تقوم لاستعادة XO الخاص إلى إعدادات المصنع الافتراضية الخاصة به ، كنت قد قررت تغيير ، ترقية ، تخفيض الإصدار، أو استبدال نظام XO تماما الخاص بك التشغيل. هناك طرق عدة لتحقيق هذا الهدف ، وكلها تمت مناقشتها في <a title="http://wiki.laptop.org/go/Change_your_OS" href="http://wiki.laptop.org/go/Change_your_OS">http://wiki.laptop.org/go/Change_your_OS</a>. قد تكون بعض هذه الآليات (مثل التحديث ، مثل olpc-update وغيرها) أن تكون أكثر كفاءة في استخدام عرض النطاق الترددي ويمكن فعله بسهولة.
+  <br></p>
+<p>
+</p>
+<p> Author : <em>HowToFlash</em>
+  <br>© Anne Gentle 2008
+  <br>Modifications:
+  <br>adam hyde 2008
+  <br>Brian Jordan 2008
+  <br>A Holt 2008
+  <br>Michael Stone 2008
+  <br>Mitch Bradley 2008
+  <br>Tom Boyle 2008
+  <br></p>
+<hr><br>License : General Public License
+<p>Produced in <a href="http://www.flossmanuals.net/">FLOSS Manuals</a>
+</p>
+<p> 
+</p>
+</div></div>
+
+  <div class="navbar">
+    <div class="arrow bottom left"><a href="#"><img src="../../static/lefttext.png" height="20" alt=""></a></div>
+    <div class="arrow bottom right"><a href="#"><img src="../../static/righttext.png" height="20" alt=""></a></div>
+  </div>
+</div>
+
+</body>
+<!-- Mirrored from objavi.flossmanuals.net/books/XOar-ar-2010.09.29-22.58.37/HowToFlash.html by HTTrack Website Copier/3.x [XR&CO'2006], Thu, 30 Sep 2010 09:23:01 GMT -->
+</html>
